@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* styles.css */
+/* styles.css */
+
+/* Default Theme */
+body.default-theme {
+  --btn-bg-color: #ffffff;
+  --btn-text-color: #000000;
+  --input-bg-color: #ffffff;
+  --input-text-color: #000000;
+  --operator-btn-bg-color: #d3d3d3;
+  --equals-btn-bg-color: #007bff;
+  --background-color: #ffffff;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  --btn-bg-color: #333333;
+  --btn-text-color: #ffffff;
+  --input-bg-color: #555555;
+  --input-text-color: #ffffff;
+  --operator-btn-bg-color: #666666;
+  --equals-btn-bg-color: #007bff;
+  --background-color: #000000;
+}
+
+/* Light Theme */
+body.light-theme {
+  --btn-bg-color: #f0f0f0;
+  --btn-text-color: #000000;
+  --input-bg-color: #ffffff;
+  --input-text-color: #000000;
+  --operator-btn-bg-color: #e0e0e0;
+  --equals-btn-bg-color: #007bff;
+  --background-color: #f8f9fa;
+}
+
+/* Apply Theme Variables */
+body {
+  background-color: var(--background-color);
+}
+
+.calculator-buttons {
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+}
+
+.calculator-screen {
+  background-color: var(--input-bg-color);
+  color: var(--input-text-color);
+}
